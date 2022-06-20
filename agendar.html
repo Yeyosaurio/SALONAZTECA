@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registrar usuario</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+    <link rel="stylesheet" type="text/css" href="CSS/estilos.css">
+</head>
+<body>
+    <header>
+		<div id="titulo">
+			<center><h1><u>SALÓN</u>&nbsp;&nbsp;<u>AZTECA</u></h1></center>
+		</div>
+		</header>
+		<ul class="menu">
+			<center><li><a href="index.html">Inicio</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<li><a href="EVENTO.HTML">Eventos</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<li><a href="precios.html">Paquetes y Precios</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<li><a href="agendar.html">Registrar Contacto</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li><a href="bocetos.html">Bocetos</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</center>
+		</ul>
+    <form method="post">
+    	<h1>¡Suscribete!</h1>
+    	<input type="text" name="name" placeholder="Nombre completo">
+    	<input type="email" name="email" placeholder="Email">
+    	<input type="submit" name="register">
+    </form>
+    <style>
+    <?php 
+    include("registrar.php");
+    ?>
+    </style>
+</body>
+</html>
